@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TDK Coffee </title>
+    <!-- link google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- link normalize file  -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- link main style sheet  -->
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    
+   <!-- header section starts  -->
+   <header class="header">
+
+       <a href="#" class="logo"><img src="images/logo.png" alt=""> </a>
+
+       <nav class="navbar">
+           <a href="#home">Главная</a>
+           <a href="#about">О нас</a>
+           <a href="#menu">Меню</a>
+           <a href="#products">Продукты</a>
+           <a href="#review">Отзывы</a>
+           <a href="#blogs">Блог</a>
+       </nav>
+
+       <div class="icons">
+           <div class="fas fa-search" id="search-btn"></div>
+           <div class="fas fa-shopping-cart" id="cart-btn"></div>
+           <div class="fas fa-bars" id="menu-btn"></div>
+       </div>
+
+       <div class="search-form">
+           <input type="search"  id="search-box" placeholder="пойск...">
+           <label for="search-box" class="fas fa-search"></label>
+       </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>Робуста</h3>
+                    <div class="price">₸15,999/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-2.png" alt="">
+                <div class="content">
+                    <h3>Арабика</h3>
+                    <div class="price">₸14,999/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-3.png" alt="">
+                <div class="content">
+                    <h3>Либерика</h3>
+                    <div class="price">₸20,999/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>Экселса</h3>
+                    <div class="price">₸19,999/-</div>
+                </div>
+            </div>
+           <a href="#" class="btn">Оплатить</a>
+      
+
+
+
+        </div>
+
+   </header>
+   <!-- header section ends  -->
+
+    <!-- home section starts  -->
+     <section class="home" id="home">
+
+         <div class="content">
+           <h3>Свежее кофе по утрам</h3>
+           <p>Ароматный кофе — вдохновляющий напиток, пробуждающий силы и утоляющий жажду. Его горячая струя наполняет душу энергией, создавая неповторимый вкус утреннего волшебства.</p>
+           <a href="#" class="btn">Купить</a>
+         </div>
+     </section>
+    <!-- home section ends  -->
+ 
+    <!-- about section starts  -->
+    <section class="about" id="about">
+        <h1 class="heading"> <span>О</span> нас </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/about-img.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Что делает наше кофе особенным?</h3>
+                <p>Наше кофе — это исключительно отборные зерна, внимательно обжаренные для насыщенного вкуса. Каждая чаша — погружение в уникальный мир ароматов.</p>
+                <p>Выбирайте наше кофе за непревзойденное качество и ответственный подход к производству. Мы создаем неповторимый вкус, доставляя радость в каждую чашу.</p>
+                <a href="#" class="btn">Узнать больше</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends  -->
+
+     <!-- menu section starts  -->
+     <section class="menu" id="menu">
+         <h1 class="heading">Наше <span>меню</span> </h1>
+
+         <div class="box-container">
+             <div class="box">
+                 <img src="images/menu-1.png" alt="">
+                 <h3>Латте</h3>
+                 <div class="price">₸5,999 <span>₸10,999</span></div>
+                 <a href="#" class="btn">В корзину </a>
+             </div>
+             <div class="box">
+                 <img src="images/menu-2.png" alt="">
+                 <h3>Ристретто</h3>
+                 <div class="price">₸5,999 <span>₸8,999</span></div>
+                 <a href="#" class="btn">В корзину </a>
+             </div>
+             <div class="box">
+                 <img src="images/menu-3.png" alt="">
+                 <h3>Капучино</h3>
+                 <div class="price">₸4,999 <span>₸8,999</span></div>
+                 <a href="#" class="btn">в корзину </a>
+             </div>
+             <div class="box">
+                 <img src="images/menu-4.png" alt="">
+                 <h3>Американо</h3>
+                 <div class="price">₸6,499 <span>₸11,999</span></div>
+                 <a href="#" class="btn">В корзину </a>
+             </div>
+             <div class="box">
+                 <img src="images/menu-5.png" alt="">
+                 <h3>Доппио</h3>
+                 <div class="price">₸3,999 <span>₸6,999</span></div>
+                 <a href="#" class="btn">В корзину </a>
+             </div>
+             <div class="box">
+                 <img src="images/menu-6.png" alt="">
+                 <h3>Маккиато</h3>
+                 <div class="price">₸3,999 <span>₸8,999</span></div>
+                 <a href="#" class="btn">В корзниу </a>
+             </div>
+
+         </div>
+     </section>
+     <!-- menu section ends  -->
+
+     <!-- products section starts  -->
+     <section class="products" id="products">
+
+        <h1 class="heading">Наши <span>продукты</span> </h1>
+            
+        <div class="box-container">
+            
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Никарагуа</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₸14,999 <span>₸17,999</span> </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Колумбия</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₸15,999 <span>₸20,999</span> </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Перу</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₸7,999 <span>₸12,999</span> </div>
+                </div>
+            </div>
+
+        </div>
+     </section>
+     <!-- products section ends  -->
+
+     <!-- review section starts  -->
+     <section class="review" id="review">
+         <h1 class="heading"> Отзывы  <span>клиентов</span> </h1>
+
+         <div class="box-container">
+
+             <div class="box">
+                 <img src="images/quote-img.png" alt="" class="quote">
+                 <p>"Удивительный вкус и аромат! Это кофе, который делает мой день особенным. Обязательно буду заказывать ещё!"</p>
+                 <img src="images/pic-1.png" class="user" alt="">
+                 <h3>Сергей Барсук </h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+             </div>
+             <div class="box">
+                 <img src="images/quote-img.png" alt="" class="quote">
+                 <p>"Отличное качество! Нежный вкус с нотками фруктов и идеальная обжарка. Этот кофе стал моим ежедневным наслаждением."</p>
+                 <img src="images/pic-2.png" class="user" alt="">
+                 <h3>Гея Медведева </h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+             </div>
+             <div class="box">
+                 <img src="images/quote-img.png" alt="" class="quote">
+                 <p>"Нашли лучший кофе! Аромат пробуждает, вкус завораживает. Настоящее удовольствие каждое утро. Спасибо за этот чудесный напиток!"</p>
+                 <img src="images/pic-3.png" class="user" alt="">
+                 <h3>Владимир Толстой </h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+             </div>
+
+         </div>
+     </section>
+     <!-- review section ends  -->
+     
+     <!-- contact section starts  -->
+     <section class="contact" id="contact">
+          
+        <h1 class="heading"> <span>Свяжитесь</span> с нами </h1>
+
+        <div class="row">
+
+            <iframe class=map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1454.036442332079!2d76.83563869999999!3d43.20796059999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388369ce0bc647cd%3A0x6aadb0629a13d4d5!2z0JTQtdGC0YHQutC40Lkg0L7QsdGA0LDQt9C-0LLQsNGC0LXQu9GM0L3Ri9C5INGG0LXQvdGC0YAgU0FQU0FO!5e0!3m2!1sru!2skz!4v1705865110533!5m2!1sru!2skz" allowfullscreen="" loading="lazy"></iframe>
+          
+           <form action="">
+               <h3>связаться</h3>
+               <div class="inputBox">
+                   <span class="fas fa-user"></span>
+                   <input type="text" placeholder="имя">
+               </div>
+               <div class="inputBox">
+                   <span class="fas fa-envelope"></span>
+                   <input type="email" placeholder="почта">
+               </div>
+               <div class="inputBox">
+                   <span class="fas fa-phone"></span>
+                   <input type="number" placeholder="номер телефона">
+               </div>
+             <input type="submit" value="contact now" class="btn">
+           </form> 
+        </div>
+
+     </section>
+     <!-- contact section ends  -->
+
+     <!-- blogs section starts  -->
+     <section class="blogs" id="blogs">
+       
+        <h1 class="heading"> Наш <span>блог</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                  <a href="#" class="title">Вкусное и освежающее кофе </a>
+                  <span> Андрей / 21 мая, 2023 </span>
+                  <p>"Откройте для себя волшебство кофе с нашей коллекцией. Уникальный вкус, внимательная обработка зерен — наше обещание вдохновляющего утра каждый день!"</p>
+                  <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                  <a href="#" class="title">Вкус настоящего кофе </a>
+                  <span> Акниет / 14 августа, 2023 </span>
+                  <p>"Погрузитесь в мир ароматов с нашим кофе. Качество, вкус, источник бодрствования. Откройте для себя уникальный опыт кофейного наслаждения прямо сейчас!"</p>
+                  <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-3.jpeg" alt="">
+                </div>
+                <div class="content">
+                  <a href="#" class="title">Якобс Монарх или мы? </a>
+                  <span> Максат / 3 ноября, 2023 </span>
+                  <p>"Отличный кофе для настоящих ценителей! Уникальный вкус, тщательная обработка зерен. Приготовьтесь к волшебному путешествию каждое утро с нашим кофе!"</p>
+                  <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+
+        </div> 
+     </section>
+     <!-- blogs section ends  -->
+
+     <!-- footer section starts  -->
+     <section class="footer">
+         <div class="share">
+             <a href="#" class="fab fa-facebook-f"></a>
+             <a href="#" class="fab fa-twitter"></a>
+             <a href="#" class="fab fa-instagram"></a>
+             <a href="#" class="fab fa-linkedin"></a>
+             <a href="#" class="fab fa-pinterest"></a>
+         </div>
+
+         <div class="links">
+             <a href="#home">Главная</a>
+             <a href="#about">О нас</a>
+             <a href="#menu">Меню</a>
+             <a href="#products">Продукты</a>
+             <a href="#review">Отзывы</a>
+             <a href="#contact">Контакты</a>
+             <a href="#blogs">Блог</a>
+         </div>
+
+         <span class="credit">сделано <span> Gihub: Idonusethisanyways</span> | вдохнавлено Mr. Web Designer </span>
+     </section>
+     <!-- footer section ends  -->
+ 
+    <!-- link file javaScript  -->
+    <script src="js/app.js"></script>
+</body>
+</html>
